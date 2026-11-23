@@ -128,3 +128,13 @@ It combines quantitative risk analysis with operational risk governance concepts
 **Project type:** Independent portfolio simulation  
 **Industry focus:** Cryptocurrency exchanges / Digital assets  
 **Primary domain:** Operational Risk Management
+
+## Live Demo
+
+**[Launch the Operational Risk Management Dashboard](https://crypto-operational-risk.streamlit.app/)**
+
+The application demonstrates an integrated operational risk framework for a fictional cryptocurrency exchange.
+
+Features include RCSA, control effectiveness testing, KRI monitoring, early warning indicators, incident and loss management, and executive risk reporting.
+
+All data and scenarios are synthetic. The public demo is read-only; control assessment changes are disabled.
