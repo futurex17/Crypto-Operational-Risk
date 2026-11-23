@@ -1,0 +1,6 @@
+incident_id,incident_date,risk_id,incident_type,description,gross_loss_usd,recovery_usd,status,severity,owner,corrective_action
+INC-001,2026-10-15,CR-001,Wallet Security,Simulated unauthorized hot-wallet transfer,250000,50000,Under Investigation,Critical,Security Operations,Review signing permissions and withdrawal controls
+INC-002,2026-10-18,CR-005,System Outage,Simulated matching engine interruption,15000,0,Resolved,High,Platform Engineering,Improve deployment rollback procedures
+INC-003,2026-10-22,CR-009,Reconciliation,Simulated internal ledger mismatch,5000,5000,Closed,Medium,Finance Operations,Strengthen daily reconciliation controls
+INC-004,2026-11-02,CR-007,Cybersecurity,Simulated privileged access compromise,75000,10000,Open,Critical,Information Security,Enforce privileged access reviews
+INC-005,2026-11-10,CR-011,Third-Party,Simulated cloud infrastructure outage,30000,0,Resolved,High,Infrastructure,Implement regional failover testing

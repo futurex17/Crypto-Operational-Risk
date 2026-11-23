@@ -1,0 +1,16 @@
+control_id,design_effectiveness,operating_effectiveness,test_date,evidence_status,findings
+CTL-001,Ineffective,Ineffective,2026-11-20,Available,Simulated multi-signature approval bypass detected
+CTL-002,Effective,Effective,2026-11-23,Available,Recovery drill successfully completed - simulated test evidence
+CTL-003,Effective,Not tested,,Missing,Authentication control test pending
+CTL-004,Effective,Not tested,,Missing,Failover test pending
+CTL-005,Effective,Not tested,,Missing,Rollback test pending
+CTL-006,Effective,Not tested,,Missing,Regression test evidence pending
+CTL-007,Effective,Not tested,,Missing,Privileged access review pending
+CTL-008,Effective,Not tested,,Missing,Vulnerability remediation evidence pending
+CTL-009,Effective,Not tested,,Missing,Reconciliation exception review pending
+CTL-010,Effective,Not tested,,Missing,Maker-checker test pending
+CTL-011,Effective,Not tested,,Missing,Regional recovery test pending
+CTL-012,Effective,Not tested,,Missing,Vendor exit test pending
+CTL-013,Effective,Not tested,,Missing,Screening validation pending
+CTL-014,Effective,Not tested,,Missing,Incident escalation exercise pending
+CTL-015,Effective,Not tested,,Missing,Disaster recovery test pending
