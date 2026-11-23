@@ -86,7 +86,7 @@ with st.form("control_test_form"):
     operating = st.selectbox("Operating Effectiveness", operating_options, index=operating_options.index(selected_row["operating_effectiveness"]))
     evidence = st.selectbox("Evidence Status", evidence_options, index=evidence_options.index(selected_row["evidence_status"]))
     findings = st.text_area("Test Findings", value=str(selected_row["findings"]))
-    submitted = st.form_submit_button("Save Assessment")
+    submitted = st.form_submit_button("Save Assessment", disabled=not (base / ".local_edit_enabled").exists())
 
 if submitted:
     control_tests.loc[control_tests["control_id"] == selected_control, "design_effectiveness"] = design
@@ -95,9 +95,7 @@ if submitted:
     control_tests.loc[control_tests["control_id"] == selected_control, "findings"] = findings
     control_tests.loc[control_tests["control_id"] == selected_control, "test_date"] = pd.Timestamp.today().strftime("%Y-%m-%d")
 
-    control_tests.to_csv(base / "control_tests.csv", index=False)
-    st.success(f"Assessment saved for {selected_control}")
-    st.rerun()
+  
     
     # CONTROL FAILURE & RISK IMPACT ANALYSIS
 
